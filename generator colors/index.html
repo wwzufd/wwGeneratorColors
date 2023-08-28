@@ -8,13 +8,9 @@
 </head>
 <body>
     <div class="editButtons">
-        <button id="buttonRemColor">
-            <span>-</span>
-        </button>
+        <button id="buttonRemColor"  onclick="remFill()">-</button>
         <div id="changeColor" onclick="changeColor()">GENERATE</div>
-        <button id="buttonAddColor">
-            <span>+</span>
-        </button>
+        <button id="buttonAddColor" onclick="addFill()">+</button>
     </div>
     <div class="container">
         <div id="color1" class="fillColor">
@@ -37,5 +33,6 @@
         </div>        
     </div>
     <script src="main.js"></script>
+    <script src="colorCorrection.js"></script>
 </body>
 </html>
